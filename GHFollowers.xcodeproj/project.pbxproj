@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B65534022BB8B00A00C27827 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534012BB8B00A00C27827 /* UIHelper.swift */; };
 		B6AF280C2BAF2807005DFD41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF280B2BAF2807005DFD41 /* AppDelegate.swift */; };
 		B6AF280E2BAF2807005DFD41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF280D2BAF2807005DFD41 /* SceneDelegate.swift */; };
 		B6AF28152BAF2808005DFD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AF28142BAF2808005DFD41 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B65534012BB8B00A00C27827 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		B6AF28082BAF2807005DFD41 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AF280B2BAF2807005DFD41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6AF280D2BAF2807005DFD41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				B6AF281F2BAF4992005DFD41 /* SearchVC.swift */,
-				B6AF28212BAF49BD005DFD41 /* FavoritesListVC.swift */,
 				B6AF28272BAF8A1B005DFD41 /* FollowerListVC.swift */,
+				B6AF28212BAF49BD005DFD41 /* FavoritesListVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				B6AF28402BB222B3005DFD41 /* ErrorMessage.swift */,
+				B65534012BB8B00A00C27827 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				B6AF28222BAF49BD005DFD41 /* FavoritesListVC.swift in Sources */,
 				B6AF28242BAF4E1D005DFD41 /* GFButton.swift in Sources */,
 				B6AF28302BB0D03B005DFD41 /* UIViewController+Ext.swift in Sources */,
+				B65534022BB8B00A00C27827 /* UIHelper.swift in Sources */,
 				B6AF28462BB22999005DFD41 /* GFAvatarImageView.swift in Sources */,
 				B6AF28202BAF4992005DFD41 /* SearchVC.swift in Sources */,
 				B6AF282E2BB0C494005DFD41 /* GFAlertVC.swift in Sources */,
