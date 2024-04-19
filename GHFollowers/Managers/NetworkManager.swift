@@ -7,9 +7,9 @@
 
 import UIKit
 
-class NetworkManager {
+class AvatarManager {
     
-    static let shared = NetworkManager()
+    static let shared = AvatarManager()
     private let baseURL = "https://api.github.com"
     let cache = NSCache<NSString, UIImage>()
     
