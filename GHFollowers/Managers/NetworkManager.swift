@@ -7,13 +7,13 @@
 
 import UIKit
 
-class AvatarManager {
+class NetworkManager {
     
-    static let shared = AvatarManager()
+    static let shared = NetworkManager()
     private let baseURL = "https://api.github.com"
     let cache = NSCache<NSString, UIImage>()
     
-    private init() {}
+    private init() {} 
     
     func getFollowers(for username: String, page: Int, completionHandler: @escaping (Result<[Follower], GFError>) -> Void) {
         let endpoint = baseURL + "/users/\(username)/followers?per_page=100&page=\(page)"
@@ -44,7 +44,7 @@ class AvatarManager {
                 let followers = try decoder.decode([Follower].self, from: data)
                 completionHandler(.success(followers))
             } catch {
-                    completionHandler(.failure(.invalidData))
+                completionHandler(.failure(.invalidData))
             }
         }
         task.resume()

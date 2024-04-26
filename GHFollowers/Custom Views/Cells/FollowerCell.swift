@@ -47,3 +47,4 @@ class FollowerCell: UICollectionViewCell {
     }
     
 }
+

@@ -27,6 +27,7 @@
 		B6AF28412BB222B3005DFD41 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF28402BB222B3005DFD41 /* ErrorMessage.swift */; };
 		B6AF28442BB22920005DFD41 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF28432BB22920005DFD41 /* FollowerCell.swift */; };
 		B6AF28462BB22999005DFD41 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF28452BB22999005DFD41 /* GFAvatarImageView.swift */; };
+		B6F3F6CC2BD2FD9B00C67544 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3F6CB2BD2FD9B00C67544 /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B6AF28402BB222B3005DFD41 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		B6AF28432BB22920005DFD41 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		B6AF28452BB22999005DFD41 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		B6F3F6CB2BD2FD9B00C67544 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +114,12 @@
 		B6AF28332BB0D3C1005DFD41 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				B6AF28252BAF5251005DFD41 /* GFTextField.swift */,
-				B6AF28232BAF4E1D005DFD41 /* GFButton.swift */,
-				B6AF28292BB0C246005DFD41 /* GFTitleLabel.swift */,
-				B6AF282B2BB0C3C8005DFD41 /* GFBodyLabel.swift */,
-				B6AF28452BB22999005DFD41 /* GFAvatarImageView.swift */,
+				B6F3F6CA2BD2FD7900C67544 /* Labels */,
+				B6F3F6C92BD2FD6E00C67544 /* ViewControllers */,
+				B6F3F6C82BD2FD6200C67544 /* ImageViews */,
+				B6F3F6C72BD2FD5B00C67544 /* TextFields */,
+				B6F3F6C62BD2FD5500C67544 /* Buttons */,
+				B6F3F6C52BD2FD4C00C67544 /* Views */,
 				B6AF28422BB228FC005DFD41 /* Cells */,
 			);
 			path = "Custom Views";
@@ -163,6 +166,54 @@
 				B6AF28432BB22920005DFD41 /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		B6F3F6C52BD2FD4C00C67544 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6F3F6CB2BD2FD9B00C67544 /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6F3F6C62BD2FD5500C67544 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF28232BAF4E1D005DFD41 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B6F3F6C72BD2FD5B00C67544 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF28252BAF5251005DFD41 /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		B6F3F6C82BD2FD6200C67544 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF28452BB22999005DFD41 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		B6F3F6C92BD2FD6E00C67544 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6F3F6CA2BD2FD7900C67544 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF282B2BB0C3C8005DFD41 /* GFBodyLabel.swift */,
+				B6AF28292BB0C246005DFD41 /* GFTitleLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +300,7 @@
 				B6AF282C2BB0C3C8005DFD41 /* GFBodyLabel.swift in Sources */,
 				B6AF28372BB0D993005DFD41 /* Follower.swift in Sources */,
 				B6AF282A2BB0C246005DFD41 /* GFTitleLabel.swift in Sources */,
+				B6F3F6CC2BD2FD9B00C67544 /* GFEmptyStateView.swift in Sources */,
 				B6AF283E2BB2164C005DFD41 /* NetworkManager.swift in Sources */,
 				B6AF28282BAF8A1B005DFD41 /* FollowerListVC.swift in Sources */,
 				B6AF280C2BAF2807005DFD41 /* AppDelegate.swift in Sources */,
