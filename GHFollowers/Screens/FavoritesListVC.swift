@@ -13,6 +13,21 @@ class FavoritesListVC: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .systemBlue
+        
+
+    }
+    
+    func getFavorites(){
+        PersistenceManager.retrieveFavorites { result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let favorites):
+                    print(favorites)
+                case .failure(let error):
+                    break
+                }
+            }
+        }
     }
 
 
