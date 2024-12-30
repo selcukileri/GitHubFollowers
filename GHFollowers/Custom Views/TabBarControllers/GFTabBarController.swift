@@ -29,5 +29,4 @@ class GFTabBarController: UITabBarController {
         favoritesListVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
         return UINavigationController(rootViewController: favoritesListVC)
     }
-
 }

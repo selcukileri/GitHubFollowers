@@ -39,7 +39,7 @@ class GFUserInfoHeaderVC: UIViewController {
         downloadAvatarImage()
         usernameLabel.text = user.login
         nameLabel.text = user.name ?? ""
-        locationImageView.image = UIImage(systemName: SFSymbols.location)
+        locationImageView.image = SFSymbols.location
         locationImageView.tintColor = .secondaryLabel
         locationLabel.text = user.location ?? "No Location"
         bioLabel.text = user.bio ?? "No bio available"
@@ -54,12 +54,7 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
     func addSubviews(){
-        view.addSubview(avatarImageView)
-        view.addSubview(usernameLabel)
-        view.addSubview(nameLabel)
-        view.addSubview(locationImageView)
-        view.addSubview(locationLabel)
-        view.addSubview(bioLabel)
+        view.addSubviews(avatarImageView,usernameLabel,nameLabel,locationImageView,locationLabel,bioLabel)
     }
     
     func layoutUI(){
